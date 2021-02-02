@@ -9,9 +9,7 @@ const pageText = {
   paraOne: `Hello, this is my personal website where you can find some projects I've worked on 
   and also a collection of resources I found helpful along the way.`,
   paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+    have hands on experience working with Python, ArcGIS, Mapbox, MongoDB, and SQL databases.`
 };
 
 const AboutMe = () => {
