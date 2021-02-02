@@ -6,12 +6,8 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
-    cool notes on web technologies.`,
+  paraOne: `Hello, this is my personal website where you can find some projects I've worked on 
+  and also a collection of resources I found helpful along the way.`,
   paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
     have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
     keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
@@ -27,7 +23,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Kyle', 'Knickerbocker', 'Austin', 'Game Development', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
@@ -38,53 +34,53 @@ const AboutMe = () => {
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="location.png"
+            img="mathematic.svg"
             height={60}
-            alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            alt="data image"
+            textH4="Data and Statistical Analysis"
+            textH3="R, MATLAB, JMP"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="coffee.png"
-            alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            img="electromagnetic.svg"
+            alt="frontend image"
+            textH4="Frontend Web Development"
+            textH3="React, Redux, Context, JS, JSX, HTML, CSS"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="meeting.png"
-            alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            img="cube.svg"
+            alt="backend image"
+            textH4="Backend Development"
+            textH3="Node.js, Python, Git, MySQL, MongoDB"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            img="triangle.svg"
+            alt="map image"
+            textH4="GIS and Spatial Analysis"
+            textH3="ArcGIS, ArcGIS Online, Mapbox"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="web.png"
-            alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
+            img="buckyball.svg"
+            alt="game image"
+            textH4="Video Game Development"
+            textH3="Unity, HTML5/JS, C#"
             height={60}
             width={60}
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="graduation.png"
-            alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            img="atom.svg"
+            alt="education image"
+            textH4="Masters of Science"
+            textH3="Urban and Regional Planning UTSA (2015)"
             height={60}
             width={60}
           />
